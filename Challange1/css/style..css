@@ -1,0 +1,158 @@
+body {
+  font-family: Poppins;
+  font-size: 1rem;
+}
+
+/* Navbar Style */
+#side-navbar {
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  overflow-x: hidden;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
+}
+nav img {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+nav a:hover {
+  color: rgb(160, 123, 0);
+}
+nav #menu {
+  display: none;
+}
+
+/* Content Style */
+.main {
+  margin-left: 200px;
+  padding-left: 1rem;
+}
+
+/* Home style */
+
+.home-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 0.5rem;
+  padding: 1rem 7%;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+}
+.home-content span {
+  color: rgb(160, 123, 0);
+}
+
+/* About style */
+
+.about-content {
+  height: 100vh;
+  padding: 1rem 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-content h2 {
+  font-size: 2rem;
+}
+.about-content span {
+  color: rgb(160, 123, 0);
+}
+
+/* education Style */
+.education-content {
+  height: 100vh;
+  padding-top: 1rem;
+  padding-left: 7%;
+  padding-right: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.education-content p {
+  margin: 0;
+  padding: 0;
+}
+
+.education-content p:first-of-type {
+  font-weight: bold;
+}
+
+/* experience Style */
+
+.experience-content {
+  height: 100vh;
+  padding: 1rem 7%;
+}
+
+.container-experience div {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 1px;
+}
+
+.experience-body h3 {
+  margin: 0;
+  color: rgb(160, 123, 0);
+}
+
+.experience-body p {
+  margin: 0;
+}
+
+/* Skill Style */
+.skill-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.skill-content span {
+  color: rgb(160, 123, 0);
+}
+
+/* Contact Style */
+.contact-content {
+  height: 100vh;
+  padding: 1rem 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-content span {
+  color: rgb(160, 123, 0);
+}
+
+.social-media a {
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+  color: black;
+  height: 20px;
+  width: 20px;
+}
